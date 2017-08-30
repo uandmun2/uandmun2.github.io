@@ -3434,6 +3434,8 @@ display:block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-left: 50px;
   margin-bottom: 10px;
+  position: relative;
+  left: 135px;
 }
 
 .container {
@@ -3444,8 +3446,24 @@ display:block;
   content: "";
   clear: both;
   display: table;
+  position: relative;
+  left: 135px;
 }
 
 .title {
   color: grey;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 50px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 275px;
+}
+.container1::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  position: relative;
+  left: 275px;
 }
