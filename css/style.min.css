@@ -3423,7 +3423,7 @@ display:block;
   padding: 0 8px;
 }
 
-@media (max-width: 650px) {
+@media {
   .column {
     width: 100%;
     display: block;
@@ -3432,6 +3432,8 @@ display:block;
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 50px;
+  margin-bottom: 10px;
 }
 
 .container {
